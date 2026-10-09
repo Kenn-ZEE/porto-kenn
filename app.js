@@ -69,7 +69,7 @@ root.innerHTML = `
         </nav>
         <div class="header-actions">
           <div class="theme-switch" role="group" aria-label="Pilih tema">
-            <button type="button" data-theme="auto" aria-label="Tema otomatis" title="Ikuti tema perangkat">A</button>
+            <button type="button" data-theme="auto" aria-label="Tema otomatis" title="Ikuti tema perangkat"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"></rect><path d="M8 21h8M12 17v4"></path></svg></button>
             <button type="button" data-theme="light" aria-label="Tema terang" title="Tema terang">☼</button>
             <button type="button" data-theme="dark" aria-label="Tema gelap" title="Tema gelap">◐</button>
           </div>

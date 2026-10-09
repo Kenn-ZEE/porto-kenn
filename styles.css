@@ -84,6 +84,7 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--cyan); outline-
 .header-actions { display: flex; align-items: center; gap: 12px; }
 .theme-switch { display: flex; align-items: center; gap: 2px; padding: 4px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
 .theme-switch button { width: 30px; height: 30px; display: grid; place-items: center; border: 0; border-radius: 50%; color: var(--muted); background: transparent; font: 15px var(--font-mono); cursor: pointer; transition: color 180ms ease, background 180ms ease; }
+.theme-switch button svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .theme-switch button[aria-pressed="true"] { color: var(--accent-ink); background: var(--accent); }
 
 .button { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 12px; padding: 0 18px; border: 1px solid transparent; border-radius: 4px; font-size: 12px; font-weight: 700; cursor: pointer; transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease; }
